@@ -58,7 +58,7 @@ let find_links html_content =
 
 (*
 Example usage:
-First, define helper function `read_file` to read in HTML content at the path. Note: you may need to include `Open Stdlib` to access `In_channel`
+First, define the helper function's `read_file` in order to read it in HTML content at the path. Note: you may need to include `Open Stdlib` to access `In_channel`.
 *)
 let read_file file = 
   In_channel.with_open_text file In_channel.input_all
