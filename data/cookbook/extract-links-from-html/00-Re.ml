@@ -38,8 +38,8 @@ Sample HTML:
 
 `find_links` accepts an argument `html_content` of type string that contains our HTML content.
 
-Using `Re.Perl.re` create a Perl flavored regular expression that searches for the `a href` tags. You can view the pattern using  
-to understand more about what is going on. [Regex101](https://regex101.com/r/2Bs442/1)
+Use `Re.Perl.re` to create a Perl flavored regular expression that searches for the `a href` tags. You can view the pattern using [Regex101](https://regex101.com/r/2Bs442/1)
+to understand more about what is going on. 
 
 `Re.all` searches the entire `html_content` string for the `pattern`.
 
