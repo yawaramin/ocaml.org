@@ -190,3 +190,8 @@
   name: "Thomas Letan’s Blog"
   url: https://soap.coffee/~lthms/posts/index.xml
   only_ocaml: true
+- id: yawaramin
+  name: "Yawar Amin's Blog"
+  url: https://dev.to/feed/yawaramin
+  only_ocaml: true
+
